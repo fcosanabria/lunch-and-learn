@@ -68,6 +68,7 @@ pero si me permite tener mas tiempo ~ para procrastinar aun mas.
 - font: berkeley mono: https://usgraphics.com/products/berkeley-mono
   - not free
 - presenterm
+  - plain text slides using markdown
 
 <!-- end_slide -->
 
@@ -183,16 +184,74 @@ hyper + m
 
 ## Managing Containers
 
+<!-- end_slide -->
+
 # Oxker
 
 Manage your Containers without using Docker Desktop
+
+`https://github.com/mrjackwills/oxker`
+
 ![oxker](img/oxker.png)
 
 <!-- end_slide -->
 
-## Lazydocker
+# Lazydocker
 
+Lazygit like TUI for containers!!
+
+`https://github.com/jesseduffield/lazydocker`
 ![lazydocker](img/lazydocker.jpg)
+
+<!-- end_slide -->
+
+# ctop
+
+Top-like interface for container metrics
+
+`https://github.com/bcicen/ctop`
+
+![ctop](img/ctop.png)
+
+<!-- end_slide -->
+
+# Docker Clients
+
+Stop using Docker Desktop!
+
+## Orbstack
+
+`https://orbstack.dev/`
+
+Lightweight and ultrafast
+
+![orbstack](img/orbstack.png)
+
+<!-- end_slide -->
+
+# Docker Clients
+
+## Podman
+
+`https://podman.io`
+
+<!-- end_slide -->
+
+# Docker Clients
+
+macOS uses the Darwin kernel, which doesn’t support Docker’s native containerization features
+(such as namespaces and cgroups) available on Linux.
+
+## Docker Engine + Colima
+
+<!-- speaker_note: To work around this, you need a Linux virtual machine (VM) running in the background.
+ -->
+
+Colima is a Lightweight VM environment for macos
+
+`https://github.com/abiosoft/colima`
+
+> Resources and tips: https://dev.to/mochafreddo/running-docker-on-macos-without-docker-desktop-64o
 
 <!-- end_slide -->
 
@@ -217,3 +276,14 @@ Originalmente from MS
 ```zsh +exec
 presemterm
 ```
+
+# Starship
+
+El motivo de una herramienta como Starship es para las personas que normalmente trabajan en la terminal de manera
+más habitual. Hace que se vea comoda, y proporciona infomación súper valiosa. Por ejemplo, si estamos logeados a
+azure o gcp, o cual python virtual environment estamos usando, así como la versión de Ruby, o Nodejs que estamos usando.
+Cosas de ese tipo que
+
+# Gracias!
+
+Gracias cowsay
