@@ -255,7 +255,52 @@ Colima is a Lightweight VM environment for macos
 
 <!-- end_slide -->
 
+# Tools
+
+## File manager
+
+### Yazi
+
+Blazing fast terminal file manager written in Rust,
+
+`https://github.com/sxyazi/yazi`
+
+![yazi](img/yazi.png)
+
+<!-- end_slide -->
+
+# Tools
+
+## Terminal Quality of Life Tools
+
+- eza - `https://github.com/eza-community/eza`
+  - ls replacement
+- zoxide - `https://github.com/ajeetdsouza/zoxide`
+  - cd replacement
+  - Remembers past locations
+- fish - `https://fishshell.com/`
+  - A shell for the era - smart and user friendly
+  - You can still making your unsafe bash scripts ;)
+  - `brew install fish `
+- bat
+  - cat replacement
+
+<!-- end_slide -->
+
+# Tools
+
+## Terminal Quality of Life Tools
+
+- Glow
+  - markdown interactive viewer in the terminal
+
+![glow](img/glow-demo.gif)
+
 # DevContainers Standard
+
+```shell +exec
+cowsay "My code works on my machine ¯\_(ツ)_/¯"
+```
 
 Originalmente from MS
 
@@ -285,5 +330,7 @@ azure o gcp, o cual python virtual environment estamos usando, así como la vers
 Cosas de ese tipo que
 
 # Gracias!
+
+<!-- end_slide -->
 
 Gracias cowsay
