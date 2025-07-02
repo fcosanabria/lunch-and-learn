@@ -43,6 +43,7 @@ Esta presentación se encuentra inspirada por NoBoilerplate.
 - Gazapos gramaticales
 - macos = darwin = bsd = unix = posix compatible
 - opt = alt
+- cmd = super
 - Strong Opinions + jokes
 - Tool installation ✅
 
@@ -117,6 +118,14 @@ entonces?
 <!-- speaker_note: scan code generation y el virtual key code translation son los mismos que el de enter -->
 
 <!-- end_slide -->
+
+### Homerow
+
+DO NOT USE YOUR MOUSE!!!!!!!!
+
+Homerow is software that allows you to label every element in your screen with a series of simbols to select and click.
+
+`https://www.homerow.app/`
 
 ### Press and Hold
 
