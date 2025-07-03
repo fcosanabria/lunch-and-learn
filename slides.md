@@ -163,8 +163,6 @@ opt + n + n
 
 - Avoid using the mouse to switch windows and resizing you apps
 
-![rat-shaking](img/shaking-rat-wet-shaking-rat.gif)
-
 <!-- incremental_lists: true-->
 
 - cmd + tab = ✅ 50/50
@@ -841,6 +839,7 @@ En DevContainers, esto garantiza que todos tengan exactamente las mismas version
 ```bash
 # Crear nuevo workspace con DevPod
 devpod up my-demo-project --ide vscode
+
 ```
 
 El container se crea con:
