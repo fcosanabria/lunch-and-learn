@@ -17,6 +17,7 @@ theme:
 - linkedin.com/in/fcosanabria
 - github.com/fcosanabria
 - instagram.com/digital.death.disrupt
+- last.fm/user/piktonus97m
 
 ![spinning-rat](img/spinning-rat.gif)
 
@@ -120,6 +121,8 @@ entonces?
 
 ![keyboard](img/qwerty-example.png)
 
+> Bonus: Kanata Windows, macOS, Linux
+
 <!-- speaker_note: scan code generation y el virtual key code translation son los mismos que el de enter -->
 
 <!-- end_slide -->
@@ -159,7 +162,11 @@ opt + n + n
 # Window Manager
 
 - Avoid using the mouse to switch windows and resizing you apps
+
+![rat-shaking](img/shaking-rat-wet-shaking-rat.gif)
+
 <!-- incremental_lists: true-->
+
 - cmd + tab = ✅ 50/50
 - macos window snapping = ❌
   - stage manager
@@ -344,6 +351,14 @@ z foo<SPACE><TAB>  # show interactive completions (zoxide v0.8.0+, bash 4.4+/fis
 markdown interactive viewer in the terminal
 
 ![glow](img/glow-demo.gif)
+
+<!-- end_slide -->
+
+# Lazygit
+
+Simple terminal UI for git commands
+
+`https://github.com/jesseduffield/lazygit`
 
 <!-- end_slide -->
 
@@ -826,7 +841,6 @@ En DevContainers, esto garantiza que todos tengan exactamente las mismas version
 ```bash
 # Crear nuevo workspace con DevPod
 devpod up my-demo-project --ide vscode
-
 ```
 
 El container se crea con:
